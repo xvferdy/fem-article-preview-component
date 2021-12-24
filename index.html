@@ -23,66 +23,46 @@
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
-
-      .me {
-        color: aquamarine;
-      }
-
-      .me--active {
-        color: black;
-      }
-      .special {
-        display: none;
-        position: absolute;
-      }
-      .special--active {
-        display: block;
-      }
-      @media (max-width: 600px) {
-        body {
-          background-color: blueviolet;
-        }
-        .special--active {
-          color: pink;
-          font-size: 30px;
-        }
-      }
     </style>
   </head>
   <body>
-    <p>
-      hift the overall look and feel by adding these wonderful touches to
-      furniture in your home Ever been in a room and felt like something was
-      missing? Perhaps it felt slightly bare and uninviting. I’ve got some
-      simple tips to help you make any room feel complete. Michelle Appleton 28
-      Jun 2020 Share
-    </p>
-    S
+    <main class="container">
+      <section class="preview">
+        <div class="banner">
+          <img src="./images/drawers.jpg" alt="" />
+        </div>
+        <div class="description">
+          <h1 class="description__title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="description__info">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <div class="description__bottom">
+            <img src="./images/avatar-michelle.jpg" alt="" />
+            <div>
+              <h2>Michelle Appleton</h2>
+              <p>28 Jun 2020</p>
+            </div>
+          </div>
+          <div class="share">
+            <div><img src="./images/icon-facebook.svg" alt="" /></div>
+            <button class="share">
+              <img src="./images/icon-share.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    <h2 class="me">Berlianto</h2>
-    <h3 class="special">Special gift</h3>
-
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
-
-    <script>
-      let me = document.querySelector(".me");
-      let special = document.querySelector(".special");
-      document.addEventListener("click", () => {
-        me.classList.remove("me--active");
-        special.classList.remove("special--active");
-      });
-      me.addEventListener("click", (e) => {
-        me.classList.toggle("me--active");
-        special.classList.toggle("special--active");
-
-        e.stopPropagation();
-      });
-      special.addEventListener("click", (e) => e.stopPropagation());
-    </script>
+    </div> -->
   </body>
 </html>
