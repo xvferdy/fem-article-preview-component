@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=main.css.map */

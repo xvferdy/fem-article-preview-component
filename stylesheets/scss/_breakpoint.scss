@@ -1,0 +1,13 @@
+@mixin display($breakpoint) {
+  @if ($breakpoint == sm-phone) {
+    @media only screen and(max-width: 320px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == desktop) {
+    @media only screen and(min-width: 900px) {
+      @content;
+    }
+  }
+}
