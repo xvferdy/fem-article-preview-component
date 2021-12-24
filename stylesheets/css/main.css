@@ -25,115 +25,129 @@ p {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  padding: 0 2.4rem;
+  padding: 0 8.4rem;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 2.4rem;
+  }
 }
 
 .preview {
   max-width: 73rem;
-  border-radius: 1rem;
-  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .preview .banner {
   flex-basis: 40%;
-  max-height: 23rem;
+  overflow: hidden;
 }
 .preview .banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top;
+  object-position: left;
 }
 .preview .description {
   flex-basis: 60%;
-  padding: 2.8rem;
-  padding-top: 3.3rem;
-  padding-bottom: 0;
-  position: relative;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 1.2rem;
+  gap: 1.4rem;
+  padding: 3rem;
+  position: relative;
 }
 .preview .description__title {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 2.3rem;
-  letter-spacing: 0.3px;
+  line-height: 2.8rem;
+  letter-spacing: 0.03rem;
   color: #48556a;
 }
 .preview .description__info {
-  line-height: 2rem;
-  letter-spacing: 0.6px;
   font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0.06rem;
   color: #6d7f97;
-  padding-bottom: 2.4rem;
+  padding-bottom: 0.5rem;
 }
 .preview .description__bottom {
   display: flex;
-  align-items: center;
-  gap: 1.4rem;
-  padding-bottom: 1.5rem;
+  align-items: flex-end;
+  gap: 1.8rem;
 }
-.preview .description__bottom .avatar {
+.preview .description__bottom-avatar {
   width: 4rem;
   border-radius: 100%;
 }
+.preview .description__bottom-profile {
+  flex-grow: 1;
+}
 .preview .description__bottom-profile .name {
-  color: #48556a;
   font-size: 1.4rem;
   font-weight: 700;
-  letter-spacing: -0.4px;
+  color: #48556a;
 }
 .preview .description__bottom-profile .date {
-  color: #9eafc2;
   font-size: 1.4rem;
   font-weight: 700;
-  letter-spacing: -0.7px;
-}
-.preview .description__bottom .share {
-  flex-grow: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.preview .description__bottom .share__detail {
-  display: none;
-  background-color: #48556a;
-  position: absolute;
-  width: 100%;
-  height: 7rem;
-  right: 0;
-}
-.preview .description__bottom .share__detail .wrap {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  height: 100%;
-  padding: 2.8rem;
-}
-.preview .description__bottom .share__detail p {
   color: #9eafc2;
-  font-size: 1.2rem;
+}
+.preview .description__bottom-share {
+  border: none;
+  border-radius: 100%;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  background-color: #ecf2f8;
+  z-index: 2;
+}
+.preview .share-detail {
+  display: none;
+}
+.preview .share-detail--active {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  background-color: #48556a;
+  bottom: 100px;
+  right: -55px;
+  padding: 1.8rem 3.3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.preview .share-detail--active p {
+  font-size: 1.3rem;
   font-weight: 400;
-  letter-spacing: 5.5px;
+  letter-spacing: 0.55rem;
+  color: #9eafc2;
   text-transform: uppercase;
 }
-.preview .description__bottom .share__detail img {
-  width: 2.5rem;
+.preview .share-detail--active img {
+  width: 2rem;
 }
-.preview .description__bottom .share__button {
-  position: relative;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 100%;
-  border: none;
-  background-color: #ecf2f8;
+@media only screen and (max-width: 768px) {
+  .preview .share-detail--active {
+    background-color: #48556a;
+    bottom: 0;
+    left: 0;
+    padding: 2.6rem;
+    width: 100%;
+    box-shadow: none;
+  }
 }
-.preview .description__bottom .share__button img {
-  width: 1.5rem;
+@media only screen and (max-width: 768px) {
+  .preview {
+    flex-direction: column;
+  }
+  .preview .banner {
+    max-height: 23rem;
+  }
+  .preview .description {
+    padding-bottom: 2rem;
+  }
+  .preview .description__info {
+    padding-bottom: 1.4rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
