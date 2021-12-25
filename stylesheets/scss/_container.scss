@@ -3,7 +3,7 @@
 .container {
   display: grid;
   place-items: center;
-  min-height: 100vh;
+  min-height: calc(100vh - 17px);
   padding: 0 8.4rem;
   @include display(tab) {
     padding: 2.4rem;
