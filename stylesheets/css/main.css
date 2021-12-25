@@ -135,6 +135,18 @@ p {
     box-shadow: none;
   }
 }
+@media only screen and (max-width: 320px) {
+  .preview .share-detail--active {
+    gap: 1rem;
+    justify-content: center;
+  }
+  .preview .share-detail--active p {
+    font-size: 1rem;
+  }
+  .preview .share-detail--active img {
+    width: 1.5rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   .preview {
     flex-direction: column;
@@ -147,6 +159,14 @@ p {
   }
   .preview .description__info {
     padding-bottom: 1.4rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .preview .description__bottom-avatar, .preview .description__bottom-profile {
+    opacity: 0;
+  }
+  .preview .description__bottom-share {
+    display: none;
   }
 }
 
