@@ -78,7 +78,6 @@
     &--active {
       position: absolute;
       display: flex;
-
       align-items: center;
       gap: 1.4rem;
       background-color: $very-dark-grayish-blue;
@@ -86,7 +85,6 @@
       right: -55px;
       padding: 1.8rem 3.3rem;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      // display: none;
       p {
         font-size: 1.3rem;
         font-weight: 400;
@@ -102,26 +100,36 @@
         bottom: 0;
         left: 0;
         padding: 2.6rem;
-
         width: 100%;
         box-shadow: none;
-        // opacity: 0.5;
       }
-      @include display(sm-phone) {
-        gap: 1rem;
-        justify-content: center;
-        p {
-          font-size: 1rem;
-        }
-        img {
-          width: 1.5rem;
-        }
+    }
+    @include display(sm-phone) {
+      //FIXME: DRY CODE
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      background-color: $very-dark-grayish-blue;
+      bottom: 0;
+      left: 0;
+      padding: 2.6rem;
+      width: 100%;
+      box-shadow: none;
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 0.55rem;
+        color: $grayish-blue;
+        text-transform: uppercase;
+      }
+      img {
+        width: 1.5rem;
       }
     }
   }
   @include display(tab) {
     flex-direction: column;
-
     .banner {
       max-height: 23rem;
     }

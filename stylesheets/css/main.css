@@ -136,14 +136,26 @@ p {
   }
 }
 @media only screen and (max-width: 320px) {
-  .preview .share-detail--active {
-    gap: 1rem;
+  .preview .share-detail {
+    position: absolute;
+    display: flex;
     justify-content: center;
+    gap: 1rem;
+    background-color: #48556a;
+    bottom: 0;
+    left: 0;
+    padding: 2.6rem;
+    width: 100%;
+    box-shadow: none;
   }
-  .preview .share-detail--active p {
+  .preview .share-detail p {
     font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.55rem;
+    color: #9eafc2;
+    text-transform: uppercase;
   }
-  .preview .share-detail--active img {
+  .preview .share-detail img {
     width: 1.5rem;
   }
 }

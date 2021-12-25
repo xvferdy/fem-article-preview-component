@@ -1,11 +1,11 @@
 ## todos
-**dluan**
+**easy**
 - [ ] sass url img
 - [ ] web title
 - [ ] color naming
 
 **hard**
-- [ ] asdf
+- [ ] user interactive
 
 ## timeline
 - main, 24des
@@ -18,7 +18,7 @@
 
 - design 26 des
   - sm-phone 3 - 3.13
-  - 
+  - javascript 3.13 - 4.09
 
 ## i'm not upset
 - layout suck
