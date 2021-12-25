@@ -1,0 +1,21 @@
+@use "./colors" as *;
+@use "./fonts" as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: $primary-font;
+  // border: 1px solid grey;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: $light-grayish-blue;
+}
+
+html {
+  font-size: 62.5%;
+}

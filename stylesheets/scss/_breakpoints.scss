@@ -1,0 +1,12 @@
+@mixin display($breakpoint) {
+  @if ($breakpoint == sm-phone) {
+    @media only screen and(max-width: 320px) {
+      @content;
+    }
+  }
+  @if ($breakpoint == tab) {
+    @media only screen and(max-width: 768px) {
+      @content;
+    }
+  }
+}

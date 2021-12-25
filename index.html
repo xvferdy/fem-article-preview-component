@@ -11,75 +11,69 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="./stylesheets/css/main.css" />
     <title>Frontend Mentor | Article preview component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 11px;
+        font-size: 12px;
         text-align: center;
       }
       .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-
-      .me {
-        color: aquamarine;
-      }
-
-      .me--active {
-        color: black;
-      }
-      .special {
-        display: none;
-        position: absolute;
-      }
-      .special--active {
-        display: block;
-      }
-      @media (max-width: 600px) {
-        body {
-          background-color: blueviolet;
-        }
-        .special--active {
-          color: pink;
-          font-size: 30px;
-        }
+        color: #245542;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
-    Shift the overall look and feel by adding these wonderful touches to
-    furniture in your home Ever been in a room and felt like something was
-    missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple
-    tips to help you make any room feel complete. Michelle Appleton 28 Jun 2020
-    Share
+    <main class="container">
+      <section class="preview">
+        <div class="banner">
+          <img src="./images/drawers.jpg" alt="" />
+        </div>
+        <div class="description">
+          <!-- <div class="share-detail"> -->
+          <div class="share-detail share-detail--active">
+            <p>share</p>
+            <img src="./images/icon-facebook.svg" alt="" />
+            <img src="./images/icon-twitter.svg" alt="" />
+            <img src="./images/icon-pinterest.svg" alt="" />
+          </div>
+          <h1 class="description__title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="description__info">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <div class="description__bottom">
+            <img
+              class="description__bottom-avatar"
+              src="./images/avatar-michelle.jpg"
+              alt=""
+            />
+            <div class="description__bottom-profile">
+              <h2 class="name">Michelle Appleton</h2>
+              <p class="date">28 Jun 2020</p>
+            </div>
 
-    <h2 class="me">Berlianto</h2>
-    <h3 class="special">Special gift</h3>
+            <button class="description__bottom-share">
+              <img src="./images/icon-share.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by
+      <a href="https://github.com/xvferdy" target="_blank">xvferdy</a>.
     </div>
-
-    <script>
-      let me = document.querySelector(".me");
-      let special = document.querySelector(".special");
-      document.addEventListener("click", () => {
-        me.classList.remove("me--active");
-        special.classList.remove("special--active");
-      });
-      me.addEventListener("click", (e) => {
-        me.classList.toggle("me--active");
-        special.classList.toggle("special--active");
-
-        e.stopPropagation();
-      });
-      special.addEventListener("click", (e) => e.stopPropagation());
-    </script>
   </body>
 </html>
