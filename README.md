@@ -47,7 +47,7 @@ Users should be able to:
 ## My process
 > ⌛ I challenge my self to finish this for ***~2 days*** <br>
 > ▐ <br>
-> 🧑‍💻 ***Day 1:*** Code basic layout with [**Sass**](https://sass-lang.com/) <br>
+> 🧑‍💻 ***Day 1:*** Code basic layout with [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML) & [**Sass**](https://sass-lang.com/) <br>
 > ▐ <sub>Studying the design <kbd>0.5 hour</kbd></sub> <br>
 > ▐ <sub>Import style guide <kbd>0.5 hour</kbd></sub> <br>
 > ▐ <sub>Start mobile first <kbd>2.5 hours</kbd></sub> <br>
@@ -71,9 +71,9 @@ Users should be able to:
 ## What I learned 🥳
 
 <details>
-    <summary>☑️ <b>CSS object fit</b></summary> <br>
+    <summary>☑️ <b>CSS object-fit</b></summary> <br>
   
-`object-position: left` it has the same idea of ` background-position: left`
+`object-position: left` has the same idea of ` background-position: left`
 ###### stylesheets/scss/\_preview.scss
 ```scss
 img {
@@ -86,7 +86,7 @@ img {
 </details>
 
 <details>
-    <summary>☑️ <b>CSS clip path</b></summary> <br>
+    <summary>☑️ <b>CSS clip-path</b></summary> <br>
   
 `clip-path` can show some part of our element by clip-in it
 ###### stylesheets/scss/\_preview.scss
