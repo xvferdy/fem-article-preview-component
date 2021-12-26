@@ -28,7 +28,6 @@ The only JavaScript you'll need for this challenge is to initiate the share opti
 
 **Preview** 👓
 
-![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
 ![Design preview for the Loopstudios landing page coding challenge](./design/overview.png)
 
 ## The challenge 
