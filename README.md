@@ -28,7 +28,7 @@ The only JavaScript you'll need for this challenge is to initiate the share opti
 
 **Preview** 👓
 
-![Design preview for the Loopstudios landing page coding challenge](./src/assets/design/desktop-preview.jpg)
+![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
 
 ## The challenge 
 Users should be able to:
@@ -60,7 +60,7 @@ Users should be able to:
 > ▐ <sub>Javascript logic for active state <kbd>~1.5 hours</kbd></sub> <br>
 > ▐ <sub>CSS clip path <kbd>~1 hour</kbd></sub> <br>
 > ▐ <br>
-> 🗓️ ***Day 4 onwards:*** Continuing unfinished task & submit solution to [**Frontend Mentor**]( "Solution") 🚩 <br>
+> 🗓️ ***Day 4 onwards:*** Continue some unfinished task & submit the solution to [**Frontend Mentor**]( "Solution") 🚩 <br>
 > ▐ <br>
 > 🗓️ 
 
@@ -111,6 +111,7 @@ Things were difficult for me and I finally gave up 😓😓
 - [ ] **HTML5** Semantic
 - [ ] Not know how to work with `<svg/>`
 - [ ] Not figured out how to implement `border-radius`
+- [ ] Not making `box-shadow` on share links
 - [ ] Some _DRY_ **CSS** code
 
 ## Author
