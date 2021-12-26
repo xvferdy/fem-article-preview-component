@@ -52,7 +52,7 @@ Users should be able to:
 > ▐ <sub>Import style guide <kbd>0.5 hour</kbd></sub> <br>
 > ▐ <sub>Start mobile first <kbd>2.5 hours</kbd></sub> <br>
 > ▐ <br>
-> 🎄 ***Day 2:*** Christmas holiday <br>
+> 🎅🎄 ***Day 2:*** Christmas holiday <br>
 > ▐ <sub>Rewrite mobile first to desktop first <kbd>~2.5 hours</kbd></sub> <br>
 > ▐ <br>
 > 🧑‍💻 ***Day 3:*** Working with [**Javascript**](https://www.javascript.com/)<br>
