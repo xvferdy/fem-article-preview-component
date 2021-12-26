@@ -47,19 +47,20 @@ Users should be able to:
 ## My process
 > ⌛ I challenge my self to finish this for ***~2 days*** <br>
 > ▐ <br>
-> 🧑‍💻 ***Day 1.*** Code basic layout with [**Sass**](https://sass-lang.com/) <br>
+> 🧑‍💻 ***Day 1:*** Code basic layout with [**Sass**](https://sass-lang.com/) <br>
 > ▐ <sub>Studying the design <kbd>0.5 hour</kbd></sub> <br>
 > ▐ <sub>Import style guide <kbd>0.5 hour</kbd></sub> <br>
 > ▐ <sub>Start mobile first <kbd>2.5 hours</kbd></sub> <br>
 > ▐ <br>
-> 🎄 ***Day 2.*** Christmas holiday, rewrite mobile first to desktop first <kbd>~2.5 hours</kbd><br>
+> 🎄 ***Day 2:*** Christmas holiday <br>
+> ▐ <sub>Rewrite mobile first to desktop first <kbd>~2.5 hours</kbd></sub> <br>
 > ▐ <br>
-> 🧑‍💻 ***Day 3.*** Working with [**Javascript**](https://www.javascript.com/)<br>
+> 🧑‍💻 ***Day 3:*** Working with [**Javascript**](https://www.javascript.com/)<br>
 > ▐ <sub>Make small change for phone layout <kbd>~0.25 hour</kbd></sub> <br>
 > ▐ <sub>Javascript logic for active state <kbd>~1.5 hours</kbd></sub> <br>
 > ▐ <sub>CSS clip path <kbd>~1 hour</kbd></sub> <br>
 > ▐ <br>
-> 🗓️ ***From day 4 onwards.*** Continuing unfinished task & submit solution to [**Frontend Mentor**]( "Solution") 🚩 <br>
+> 🗓️ ***Day 4 onwards:*** Continuing unfinished task & submit solution to [**Frontend Mentor**]( "Solution") 🚩 <br>
 > ▐ <br>
 > 🗓️ 
 
@@ -70,43 +71,43 @@ Users should be able to:
 ## What I learned 🥳
 
 <details>
-    <summary>☑️ <b>Prevent for showing leading zero after typing some number inside input</b></summary> <br>
+    <summary>☑️ <b>CSS object fit</b></summary> <br>
   
-The `value={input.toString()` prevent us for showing leading zero after typing some number
-###### src/pages/Home.js
-```javascript
-<input type="number" value={input.toString()} onChange={change} />
-```
-</details>
-
-<details>
-    <summary>☑️ <b>Hide input slider</b></summary> <br>
-  
-Hide HTML `<input/>` slider
-###### src/stylesheets/pages/\_home.scss
+`object-position: left` it has the same idea of ` background-position: left`
+###### stylesheets/scss/\_preview.scss
 ```scss
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-input[type="number"] {
-  -moz-appearance: textfield; /* Firefox */
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
 }
 ```
 </details>
 
 <details>
-    <summary>☑️ <b>Respect deadlines</b></summary> <br>
+    <summary>☑️ <b>CSS clip path</b></summary> <br>
   
-Should have left some extra time for testing the production sites and write some documentation
-
+`clip-path` can show some part of our element by clip-in it
+###### stylesheets/scss/\_preview.scss
+```scss
+clip-path: polygon(
+  0% 0%,
+  100% 0%,
+  100% 75%,
+  62% 75%,
+  56% 100%,
+  49% 75%,
+  0% 75%
+);
+```
 </details>
 
 ## Difficult Things 😓
 Things were difficult for me and I finally gave up 😓😓
 - [ ] **HTML5** Semantic
 - [ ] Not know how to work with `<svg/>`
+- [ ] Not to figure out how to implement `border-radius`
 - [ ] _DRY_ **CSS** code
 
 ## Author
@@ -114,7 +115,7 @@ Things were difficult for me and I finally gave up 😓😓
 |:---:|
 
 ## Acknowledgments
-- [Wes Bos](https://www.youtube.com/watch?v=F1anRyL37lE&t=201s)
+- [Wes Bos](https://www.youtube.com/watch?v=F1anRyL37lE&t=201s "JavaScript Event Capture, Propagation and Bubbling")
 
 <h3 align="right">
       <a href="#readme">To Top ⤴️</a>
