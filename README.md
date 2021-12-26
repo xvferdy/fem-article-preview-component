@@ -42,7 +42,7 @@ Users should be able to:
 
 ## Links
 - Solution URL: [Frontend Mentor Solution]()
-- Live Site URL: [Gituhb Pages]()
+- Live Site URL: [Gituhb Pages](https://xvferdy.github.io/fem-article-preview-component/)
 
 ## My process
 > ⌛ I challenge my self to finish this for ***~2 days*** <br>
