@@ -1,7 +1,7 @@
 ## todos
 **easy**
-- [ ] sass url img
-- [ ] web title
+- [x] sass url img
+- [x] web title
 - [ ] color naming
 
 **hard**
@@ -25,6 +25,7 @@
 - 26 des, js
   - javascript 3.13 - 4.09
   - clip path 1.30 - 2.26
+  - 
 
 ## i'm not upset
 - layout suck

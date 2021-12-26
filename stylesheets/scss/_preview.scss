@@ -33,13 +33,13 @@
       font-weight: 700;
       line-height: 2.8rem;
       letter-spacing: 0.03rem;
-      color: $very-dark-grayish-blue;
+      color: $primary;
     }
     &__info {
       font-weight: 400;
       line-height: 2rem;
       letter-spacing: 0.06rem;
-      color: $desaturated-dark-blue;
+      color: $text;
       padding-bottom: 0.5rem;
     }
     &__bottom {
@@ -54,12 +54,12 @@
         .name {
           font-size: 1.4rem;
           font-weight: 700;
-          color: $very-dark-grayish-blue;
+          color: $primary;
         }
         .date {
           font-size: 1.4rem;
           font-weight: 700;
-          color: $grayish-blue;
+          color: $text-lighter;
         }
         flex-grow: 1;
       }
@@ -68,13 +68,13 @@
         border-radius: 100%;
         padding: 0.8rem 1rem;
         cursor: pointer;
-        background-color: $light-grayish-blue;
+        background-color: $background;
         z-index: 2;
         &:hover {
-          background-color: lighten($grayish-blue, 20%);
+          background-color: lighten($text-lighter, 20%);
         }
         &:focus {
-          background-color: lighten($grayish-blue, 20%);
+          background-color: lighten($text-lighter, 20%);
           img {
             filter: invert(42%) sepia(88%) saturate(4358%) hue-rotate(134deg)
               brightness(98%) contrast(91%);
@@ -90,7 +90,7 @@
       display: flex;
       align-items: center;
       gap: 1.4rem;
-      background-color: $very-dark-grayish-blue;
+      background-color: $primary;
       bottom: 70px;
       right: -55px;
       padding: 1.8rem 3.3rem;
@@ -111,7 +111,7 @@
         font-size: 1.3rem;
         font-weight: 400;
         letter-spacing: 0.55rem;
-        color: $grayish-blue;
+        color: $text-lighter;
         text-transform: uppercase;
       }
       img {
@@ -119,7 +119,6 @@
         cursor: pointer;
       }
       @include display(tab) {
-        background-color: $very-dark-grayish-blue;
         bottom: 0;
         left: 0;
         padding: 2.6rem;
@@ -135,7 +134,7 @@
       display: flex;
       justify-content: center;
       gap: 1rem;
-      background-color: $very-dark-grayish-blue;
+      background-color: $primary;
       bottom: 0;
       left: 0;
       padding: 2.6rem;
@@ -145,7 +144,7 @@
         font-size: 1rem;
         font-weight: 400;
         letter-spacing: 0.55rem;
-        color: $grayish-blue;
+        color: $text-lighter;
         text-transform: uppercase;
       }
       img {
