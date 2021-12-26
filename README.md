@@ -42,7 +42,7 @@ Users should be able to:
 
 ## Links
 - Solution URL: [Frontend Mentor Solution]()
-- Live Site URL: [Netlify]()
+- Live Site URL: [Gituhb Pages]()
 
 ## My process
 > ⌛ I challenge my self to finish this for ***~2 days*** <br>
