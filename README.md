@@ -91,15 +91,18 @@ img {
 `clip-path` can show some part of our element by clip-in it
 ###### stylesheets/scss/\_preview.scss
 ```scss
-clip-path: polygon(
-  0% 0%,
-  100% 0%,
-  100% 75%,
-  62% 75%,
-  56% 100%,
-  49% 75%,
-  0% 75%
-);
+&--active {
+  filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.1));
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    62% 75%,
+    56% 100%,
+    49% 75%,
+    0% 75%
+  );
+}
 ```
 </details>
 
@@ -107,8 +110,8 @@ clip-path: polygon(
 Things were difficult for me and I finally gave up 😓😓
 - [ ] **HTML5** Semantic
 - [ ] Not know how to work with `<svg/>`
-- [ ] Not to figure out how to implement `border-radius`
-- [ ] _DRY_ **CSS** code
+- [ ] Not figured out how to implement `border-radius`
+- [ ] Some _DRY_ **CSS** code
 
 ## Author
 | [<img src="https://avatars.githubusercontent.com/u/47988956?v=4" alt="xvferdy" width="100px"/><br><sub><samp>Berlianto</samp></sub>](https://github.com/xvferdy)  |
