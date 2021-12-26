@@ -22,7 +22,7 @@
 ## Brief
 Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well.
 
-Your challenge is to build out this article preview component and get it looking as close to the design as possible. You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go 👍.
+Your challenge is to build out this **article preview component** and get it looking as close to the design as possible. You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go 👍.
 
 The only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.
 
