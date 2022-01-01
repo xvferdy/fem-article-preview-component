@@ -41,7 +41,7 @@ Users should be able to:
 [![🐬 Newbie Difficulty List](https://img.shields.io/badge/Difficulty-Newbie-3F54A3?style=for-the-badge&logo=frontendmentor "Newbie Difficulty")](https://www.frontendmentor.io/challenges?difficulties=1)
 
 ## Links
-- Solution URL: [Frontend Mentor Solution]()
+- Solution URL: [~~Frontend Mentor Solution~~]()
 - Live Site URL: [Gituhb Pages](https://xvferdy.github.io/fem-article-preview-component/)
 
 ## My process
