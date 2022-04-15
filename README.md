@@ -41,7 +41,7 @@ Users should be able to:
 [![🐬 Newbie Difficulty List](https://img.shields.io/badge/Difficulty-Newbie-3F54A3?style=for-the-badge&logo=frontendmentor "Newbie Difficulty")](https://www.frontendmentor.io/challenges?difficulties=1)
 
 ## Links
-- Solution URL: [~~Frontend Mentor Solution~~]()
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/article-preview-component-react-sass-S1ZyohIN9)
 - Live Site URL: [Gituhb Pages](https://xvferdy.github.io/fem-article-preview-component/)
 
 ## My process
@@ -60,7 +60,7 @@ Users should be able to:
 > ▐ <sub>Javascript logic for active state <kbd>~1.5 hours</kbd></sub> <br>
 > ▐ <sub>CSS clip path <kbd>~1 hour</kbd></sub> <br>
 > ▐ <br>
-> 🗓️ ***Day 4 onwards:*** Continue some unfinished task & submit the solution to [**Frontend Mentor**]( "Solution") 🚩 <br>
+> 🗓️ ***Day 4 onwards:*** Continue some unfinished task & submit the solution to [**Frontend Mentor**](https://www.frontendmentor.io/solutions/article-preview-component-react-sass-S1ZyohIN9) 🚩 <br>
 > ▐ <br>
 > 🗓️ 
 
